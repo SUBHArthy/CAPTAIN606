@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="organizations.CreateOrganizationWithPOM">
+        <methods>
+          <include name="bM"/>
+          <include name="createOrganizationWithPOM"/>
+          <include name="aM"/>
+          <include name="aT"/>
+          <include name="aS"/>
+          <include name="bT"/>
+          <include name="aC"/>
+          <include name="bS"/>
+          <include name="bc"/>
+        </methods>
+      </class> <!-- organizations.CreateOrganizationWithPOM -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
